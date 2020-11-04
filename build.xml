@@ -17,6 +17,9 @@
         <property name="repositoryName" value="${projectName}Repo"/>
         <property name="testPackageNamePattern" value="*_Test"/>
         <property name="jenkinsReportDir" value="${workspace.dir}/report"/>
+	
+	<property name="SAGHome" location="${SAGHome}"/>
+	<property name="SAG_CI_HOME" location="${SAGCIHome}"/>
 
 
 	<target name="buildDeployTest" depends="">
